@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment_05</title>
+</head>
+
+<body>
+    <script>
+        // Q.#5 Table
+        for(var i = 0; i <= 10; i++) {
+
+// multiply i with number
+        var number = 3;
+        var result = i * number;
+        console.log(result)
+            // display the result
+            document.write(number + 'X' + i + ' = '+ result+'<br>');
+}
+
+    // Q.# Currency Exchanger
+    var $dollar =104.80;
+    var $riyal =28;
+    var total_dollar = 10;
+    var total_riyal = 25;
+    // var pkr =;
+    var pkr_to_dollar =  total_dollar * $dollar;
+    var pkr_to_riyal =  total_riyal * $riyal;
+    var currency = pkr_to_dollar + pkr_to_riyal;
+    console.log(currency)
+    document.write('<h1>Currency in PKR</h1>');
+    document.write(' Total Currency in PKR :'+ currency );
+    // Q.# age Calculator
+    var current_year = 2015;
+    var birth_year = 2000;
+    var age_result = current_year - birth_year;
+    // console.log(age_result);
+    document.write('<h1>Age Calculator</h1>');
+    document.write('Your Current Year: '+ current_year+'<br>');
+    document.write('Your Birth Year: '+ birth_year +'<br>');
+    document.write('Your Age: '+ age_result+'<br>');
+    </script>
+</body>
+
+</html>
